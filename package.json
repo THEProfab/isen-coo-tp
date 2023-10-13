@@ -3,22 +3,25 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Haha what tests ?\" && exit 1",
-    "start": "rimraf ./dist && node -r ts-node/register src/main"
+    "start": "rimraf ./dist && node -r ts-node/register src/infrastructure/api/main"
   },
   "author": {
     "email": "martel_andre@proton.me",
     "name": "André Martel"
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "express": "^4.18.2",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.3.6",
     "@types/express": "^4.17.17",
     "@types/morgan": "^1.9.4",
     "@types/node": "^20.4.8",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
+    "chai": "^4.3.10",
     "eslint": "^8.46.0",
     "prettier": "^3.0.1",
     "rimraf": "^5.0.1",
