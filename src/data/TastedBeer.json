@@ -1,0 +1,44 @@
+{
+  "tastedBeers": [
+    {
+      "abv":4.5,
+      "ibu":60,
+      "color":"EXTRA_SPECIAL_BITTER",
+      "id":1,
+      "name":"Buzz",
+      "description":"A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+      "image_url":"https://images.punkapi.com/v2/keg.png",
+      "hasBeenLiked":true
+    },
+    {
+      "abv":4.1,
+      "ibu":41.5,
+      "color":"IPA",
+      "id":2,
+      "name":"Trashy Blonde",
+      "description":"A titillating, neurotic, peroxide punk of a Pale Ale. Combining attitude, style, substance, and a little bit of low self esteem for good measure; what would your mother say? The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives, preservatives, pasteurization or strings attached. All wrapped up with the customary BrewDog bite and imaginative twist.",
+      "image_url":"https://images.punkapi.com/v2/2.png",
+      "hasBeenLiked":false
+    },
+    {
+      "abv":4.2,
+      "ibu":8,
+      "color":"WEISS",
+      "id":3,
+      "name":"Berliner Weisse With Yuzu - B-Sides",
+      "description":"Japanese citrus fruit intensifies the sour nature of this German classic.",
+      "image_url":"https://images.punkapi.com/v2/keg.png",
+      "hasBeenLiked":true
+    },
+    {
+      "abv":6.3,
+      "ibu":55,
+      "color":"GARDE",
+      "id":4,
+      "name":"Pilsen Lager",
+      "description":"Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Pilsner yeast ferments with no fruity esters or spicy phenols, although it can add a hint of butterscotch.",
+      "image_url":"https://images.punkapi.com/v2/4.png",
+      "hasBeenLiked":false
+    }
+  ]
+}

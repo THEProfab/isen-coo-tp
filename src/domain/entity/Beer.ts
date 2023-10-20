@@ -16,14 +16,9 @@ export enum BeerColorIntensity {
   UNKNOWN = "UNKNOWN",
 }
 
-type BeerDependencies = {
+export type BeerDependencies = {
   id: number;
   name: string;
-  description?: string;
-  image_url?: string;
-  abv?: number;
-  ibu?: string;
-  color?: string;
 };
 
 export class Beer {
