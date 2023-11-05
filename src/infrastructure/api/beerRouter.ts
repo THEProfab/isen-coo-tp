@@ -19,9 +19,9 @@ export function createBeerRouter() {
 
     if (id) {
       const tastedBeers = await getAllTastedBeers({ tastedBeerRepository });
-      const ids = tastedBeers.map((element) => element.id);
+      const tastedBeersIds = tastedBeers.map((element) => element.id);
 
-      if (ids.includes(id)) {
+      if (tastedBeersIds.includes(id)) {
         return res.status(208).end("Beer already tasted!");
       } else {
         const wasAdded = await addTastedBeer({ beerRepository, tastedBeerRepository }, id);
